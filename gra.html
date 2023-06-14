@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="game-table">
+        <div id="logout-section">
+          <form action="logout.php" method="post">
+            <button class="logout-button" type="submit">Log out</button>
+          </form>
+        </div>
+        <h1>Blackjack</h1>
+        <div id="dealer-hand">
+          <div id="dealer-hand-value" class="hand-value">Dealer's Hand: 0</div>
+        </div>
+        <div id="player-hand">
+          <div id="player-hand-value" class="hand-value">Player's Hand: 0</div>
+        </div>
+        <div id="balance">Balance: <span id="balance-value">1000</span></div>
+        <input type="number" id="bet-amount" min="1" max="1000" placeholder="Bet amount" />
+        <button onclick="deal()">Deal</button>
+        <button onclick="hit()">Hit</button>
+        <button onclick="stand()">Stand</button>
+        <div id="result"></div>
+      </div>
+</body>
+</html>

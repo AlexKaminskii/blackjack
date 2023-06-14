@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --sec: #2e282a;
+    --main: #546ef0;
+}
+#table-btn {
+    background-color: var(--main);
+    width: 20vmax;
+    height: 9vmin;
+    border: none;
+    transition: .2s;
+    padding: 2vmin;
+    font-size: 1.2em;
+    border-radius: .5vw;
+}
+#betvalue {
+    width: 20vmin;
+    background-color: var(--sec);
+    height: 5vmin;
+    color: gray;    
+    padding: 2vmin;
+    font-size: 1.2em;
+    transition: 1.2em;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: url(back.jpg) no-repeat fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: var(--main);
+    overflow: hidden;
+  }
+  
+  #game-table {
+    font-weight: 900;
+    background: url(green.jpg) no-repeat fixed;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 90vw;
+    padding: 5vmin;
+    margin-top: 10vh;
+    height: 80vh;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  #dealer-hand, #player-hand {
+    width: 90vw;
+    
+    display: none;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 20vmin;
+    height: 25vmin;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+  }
+  
+  #result {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #balance {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"]::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]::-moz-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]:-ms-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  #login-section,
+  #registration-section {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #login-section h1,
+  #registration-section h1 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #login-section input[type="text"],
+  #login-section input[type="password"],
+  #registration-section input[type="text"],
+  #registration-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  #login-section input[type="text"]:focus,
+  #login-section input[type="password"]:focus,
+  #registration-section input[type="text"]:focus,
+  #registration-section input[type="password"]:focus{
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  #login-section button,
+  #registration-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #login-section button:hover
+  #registration-section button:hover {
+    background-color: #2980b9;
+  }
+  
+  #login-section button:focus,
+  #registration-section button:focus {
+    outline: none;
+  }
+  
+  #login-section button:active
+  #registration-section button:active {
+    background-color: #1f648b;
+  }
+  
+  .hand-value {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .logout-button {
+    float: right;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
